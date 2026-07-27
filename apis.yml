@@ -1,7 +1,29 @@
 aid: hive-power
 name: Hive Power
-description: Hive Power is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hive Power SA is a Swiss software company (Manno, Ticino) building FLEXO, a
+  Flexibility Orchestrator that connects distributed energy assets — electric
+  vehicles, stationary batteries, solar systems, and smart appliances — to
+  electricity markets and grid services. FLEXO pairs an AI optimization engine
+  (weather, price, and behavior forecasting) with a REST API mid-layer and
+  end-user/admin interfaces to deliver smart charging (V1G/V2G/V2X), virtual
+  power plant (VPP) aggregation, battery monetization, energy-community
+  management, and local optimization. The platform is hardware-agnostic,
+  integrating EVs, chargers, batteries, and solar/EMS via IoT platforms and
+  manufacturer APIs (Enode, ABB, Huawei, LG, SMA, Easee, ChargePoint) and
+  protocols such as MODBUS, MQTT, and OCPP. Backed by Techstars.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/61eac581df4db0c02c06da3f/62556e8f97cb954fc40efc05_HP-OGG.png
 url: https://raw.githubusercontent.com/api-evangelist/hive-power/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +33,61 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Energy
+- Virtual Power Plant
+- Smart Charging
+- Electric Vehicles
+- Energy Flexibility
+- Grid Services
+- Battery Storage
+- Demand Response
+- IoT
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: FLEXO API
+  description: >-
+    FLEXO's REST API mid-layer provides programmatic access to energy usage
+    data, economic insights, notifications, and flexibility signals for custom
+    integrations with distributed energy assets. Developer documentation is
+    published on a password-gated portal; no public OpenAPI specification is
+    available as of the enrichment date.
+  humanURL: https://docs.hivepower.tech/
+  baseURL: https://api.hivepower.tech
+  properties:
+  - type: Documentation
+    url: https://docs.hivepower.tech/
 common:
 - type: Website
-  url: https://hivepower.tech/
+  url: https://www.hivepower.tech/
+- type: DeveloperPortal
+  url: https://docs.hivepower.tech/
+- type: Documentation
+  url: https://docs.hivepower.tech/
+- type: Blog
+  url: https://www.hivepower.tech/resources/blog
+- type: Support
+  url: https://www.hivepower.tech/contact
+- type: Login
+  url: https://flexo.hivepower.tech/
+- type: GitHubOrganization
+  url: https://github.com/hivepower
+- type: TermsOfService
+  url: https://www.hivepower.tech/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.hivepower.tech/privacy-policy
+- type: LLMsTxt
+  url: llms/hive-power-llms.txt
+- type: DomainSecurity
+  url: security/hive-power-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

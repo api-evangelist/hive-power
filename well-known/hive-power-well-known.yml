@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/* on Hive Power hosts
+hosts:
+- host: https://hivepower.tech
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.hivepower.tech
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+# No .well-known discovery documents are published on either host as of the probe date.
+# Absence is valid, expected data — no WellKnown/SecurityTxt scoring pointer is emitted.

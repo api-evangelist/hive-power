@@ -1,0 +1,27 @@
+# Hive Power
+
+> Hive Power SA is a Swiss (Manno, Ticino) software company building FLEXO, a Flexibility Orchestrator that connects distributed energy assets — electric vehicles, stationary batteries, solar systems, and smart appliances — to electricity markets and grid services. FLEXO combines an AI optimization engine, a REST API mid-layer, and end-user/admin interfaces to deliver smart charging (V1G/V2G/V2X), virtual power plant (VPP) aggregation, battery monetization, energy-community management, and local optimization.
+
+## About
+
+- FLEXO is organized in three layers: an AI engine (weather/price/behavior forecasting, scheduling, optimization), an API mid-layer (programmatic access to energy usage, economics, notifications, and flexibility signals), and end-user interfaces (web admin portal + white-label apps).
+- Hardware-agnostic integration via IoT platforms and manufacturer APIs (Enode, ABB, Huawei, LG, SMA, Pixii, Easee, ChargePoint, Free2Move eSolutions, Aurora's Grid, Solar Manager, SolarLog) and protocols MODBUS, MQTT, OCPP.
+- The developer documentation portal is password-gated; no public OpenAPI, SDK, or package is published as of 2026-07-19.
+
+## Company
+
+- Website: https://www.hivepower.tech/
+- FLEXO platform: https://www.hivepower.tech/flexo
+- Developer docs (gated): https://docs.hivepower.tech/
+- Blog: https://www.hivepower.tech/resources/blog
+- Contact: https://www.hivepower.tech/contact
+- GitHub organization: https://github.com/hivepower
+
+## Legal
+
+- Privacy Policy: https://www.hivepower.tech/privacy-policy
+- Terms and Conditions: https://www.hivepower.tech/terms-and-conditions
+
+## Notes
+
+- method: generated — assembled from apis.yml and public Hive Power web surfaces (no provider-published /llms.txt was found).
