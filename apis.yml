@@ -12,6 +12,17 @@ description: >-
   integrating EVs, chargers, batteries, and solar/EMS via IoT platforms and
   manufacturer APIs (Enode, ABB, Huawei, LG, SMA, Easee, ChargePoint) and
   protocols such as MODBUS, MQTT, and OCPP. Backed by Techstars.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
