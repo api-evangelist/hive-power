@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hive Power is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Hive Power SA is a Swiss software company (Manno, Ticino) building FLEXO, a Flexibility Orchestrator that connects distributed energy assets — electric vehicles, stationary batteries, solar systems, and smart appliances — to electricity markets and grid services. FLEXO pairs an AI optimization engine (weather, price, and behavior forecasting) with a REST API mid-layer and end-user/admin interfaces to deliver smart charging (V1G/V2G/V2X), virtual power plant (VPP) aggregation, battery monetization, energy-community management, and local optimization. The platform is hardware-agnostic, integrating EVs, chargers, batteries, and solar/EMS via IoT platforms and manufacturer APIs (Enode, ABB, Huawei, LG, SMA, Easee, ChargePoint) and protocols such as MODBUS, MQTT, and OCPP. Backed by Techstars.
 
-Backed by: techstars — https://hivepower.tech/
+**Areas:** Company · Energy · Virtual Power Plant · Smart Charging · Electric Vehicles · Energy Flexibility · Grid Services · Battery Storage · Demand Response · IoT
+
+## Hive Power on APIs.io
+
+Everything profiled for Hive Power is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hive-power/](https://apis.io/providers/hive-power/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [FLEXO API](https://apis.io/apis/hive-power/flexo-api/) — FLEXO's REST API mid-layer provides programmatic access to energy usage data, economic insights, notifications, and flexibility signals for custom…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hive Power Domain Security](https://apis.io/security/hive-power/hive-power-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hivepower.tech/)
+- [Documentation](https://docs.hivepower.tech/)
+- [Support](https://www.hivepower.tech/contact)
+- [Blog](https://www.hivepower.tech/resources/blog)
+- [Terms of service](https://www.hivepower.tech/terms-and-conditions)
+- [Privacy policy](https://www.hivepower.tech/privacy-policy)
+- [GitHub](https://github.com/hivepower)
+
+## API Evangelist rating
+
+**Kin Score 18.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hive-power/](https://apis.io/providers/hive-power/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hive Power: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hive-power/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
